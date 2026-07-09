@@ -17,6 +17,8 @@ const Admin = () => {
 
     email: "",
 
+    departmentName:"",
+
     password: ""
 
   });
@@ -352,6 +354,22 @@ const Admin = () => {
                 className="w-full border p-3 rounded"
 
               />
+              
+             <select
+  name="departmentName"
+  value={newAdmin.departmentName}
+  onChange={handleChange}
+  className="w-full border p-3 rounded"
+>
+  <option value="">Select Department</option>
+  <option value="CSE">CSE</option>
+  <option value="ECE">ECE</option>
+  <option value="IT">IT</option>
+  <option value="EEE">EEE</option>
+  <option value="MECH">MECH</option>
+  <option value="AIDS">AIDS</option>
+  <option value="AIML">AIML</option>
+</select>
 
               <input
 
