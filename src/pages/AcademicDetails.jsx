@@ -6,7 +6,7 @@ import api from "../api/axiosInstance";
 
 import StudentSidebar
 
-from "../components/StudentSidebar";
+from "../Components/StudentSidebar";
 
 const AcademicDetails=()=>{
 
