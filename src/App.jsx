@@ -20,7 +20,7 @@ import StudentSidebar from './Components/StudentSidebar'
 import AcademicDetails from './pages/AcademicDetails'
 import StudentProfile from './pages/StudentProfile'
 import StudentSetting from './pages/StudentSetting'
-import PendingStudents from './pages/PendingStudents'
+import PendingStudents from './pages/TempPending'
 import ProtectedRoute from './Components/ProtectedRoute'
 import { useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
@@ -62,7 +62,7 @@ function App() {
           <Route path='/AcademicDetails' element={<ProtectedRoute allowedRoles={["STUDENT"]}><AcademicDetails/></ProtectedRoute>}/>
           <Route path='/StudentProfile' element={<ProtectedRoute allowedRoles={["STUDENT"]}><StudentProfile/></ProtectedRoute>}/>
           <Route path='/StudentSetting' element={<ProtectedRoute allowedRoles={["STUDENT"]}><StudentSetting/></ProtectedRoute>}/>
-          <Route path='/PendingStudents' element={<ProtectedRoute allowedRoles={["ADMIN"]}><PendingStudents/></ProtectedRoute>}/>
+          <Route path='/PendingStudents' element={<ProtectedRoute allowedRoles={["ADMIN"]}><TempPending/></ProtectedRoute>}/>
           
       </Routes>
 
