@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import StudentSidebar from "../components/StudentSidebar";
+import StudentSidebar from "../Components/StudentSidebar";
 import api from "../api/axiosInstance";
  import { useNavigate } from "react-router-dom";
  import toast from "react-hot-toast";
