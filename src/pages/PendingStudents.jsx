@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Sidebar from "../Components/Sidebar";
 import api from "../api/axiosInstance";
 
-const TempPending = () => {
+const PendingStudents = () => {
 
   const [students, setStudents] = useState([]);
 
@@ -391,4 +391,4 @@ const TempPending = () => {
 
 };
 
-export default TempPending;
+export default PendingStudents;
