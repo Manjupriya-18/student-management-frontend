@@ -6,7 +6,7 @@ import ProfileSkeleton from "../Components/loaders/ProfileSkeleton";
 
 import StudentSidebar
 
-from "../components/StudentSidebar";
+from "../Components/StudentSidebar";
 
 const StudentProfile=()=>{
 
