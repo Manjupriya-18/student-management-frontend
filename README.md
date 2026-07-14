@@ -10,7 +10,11 @@ EduManage is a full-stack Student Management System designed to help administrat
 
 **Frontend:** https://student-management-frontend-ldjl.vercel.app
 
-**Backend API:** https://student-management-backend-bh0r.onrender.com
+**Backend API:** 
+Spring Boot REST API deployed on Render.
+
+Base URL:
+https://student-management-backend-bh0r.onrender.com
 
 ---
 
