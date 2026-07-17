@@ -1,16 +1,87 @@
-# React + Vite
+# 🎓 EduManage – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EduManage is a full-stack Student Management System designed to help administrators efficiently manage students and departments through a modern web interface.
 
-Currently, two official plugins are available:
+> **This repository contains the React frontend of the EduManage application.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌐 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Frontend:** https://student-management-frontend-ldjl.vercel.app
 
-## Expanding the ESLint configuration
+**Backend API:** 
+Spring Boot REST API deployed on Render.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Base URL:
+https://student-management-backend-bh0r.onrender.com
+
+---
+
+## ✨ Features
+
+- 🔐 Secure Admin Login
+- 👨‍🎓 Student Management
+- 🏫 Department Management
+- 👨‍💼 Admin Registration
+- 🔍 Search Students
+- 🔒 JWT Authentication
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| React | Frontend Framework |
+| Vite | Build Tool |
+| Tailwind CSS | Styling |
+| Axios | API Communication |
+| React Router | Navigation |
+
+---
+
+## 📂 Project Structure
+
+src
+├── components
+├── pages
+├── services
+├── assets
+└── App.jsx
+```
+
+---
+
+## 🚀 Running Locally
+
+1. Clone the repository.
+2. Install dependencies.
+
+```bash
+npm install
+```
+
+3. Configure the `.env` file.
+
+4. Start the development server.
+
+```bash
+npm run dev
+```
+
+## 🔗 Backend Repository
+
+The backend source code is available here:
+
+**student-management-backend**
+
+https://github.com/Manjupriya-18/student-management-backend.git
+
+---
+
+## 👩‍💻 Author
+
+**Manju Priya**
+
+Java Backend Developer
