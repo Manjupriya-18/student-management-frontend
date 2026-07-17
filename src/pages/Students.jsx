@@ -65,7 +65,7 @@ useEffect(()=>{
 
       const res = await api.get(
 
-        `http://localhost:8080/admin?page=${page}&size=10`,
+        `/admin?page=${page}&size=10`,
 
         {
 
