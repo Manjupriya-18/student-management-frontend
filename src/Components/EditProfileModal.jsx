@@ -53,6 +53,29 @@ name:e.target.value
 className="w-full border p-4 rounded-xl"
 
 />
+<input
+
+type="text"
+
+placeholder="Email"
+
+value={profile.email}
+
+onChange={(e)=>
+
+setProfile({
+
+...profile,
+
+email:e.target.value
+
+})
+
+}
+
+className="w-full border p-4 rounded-xl"
+
+/>
 
 <input
 

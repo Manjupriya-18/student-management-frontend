@@ -235,19 +235,19 @@ const Admin = () => {
 
               <tr>
 
-                <th className="p-4">
+                <th className="p-4 text-left">
 
                   Username
 
                 </th>
 
-                <th className="p-4">
+                <th className="p-4 text-left">
 
                   Email
 
                 </th>
 
-                <th className="p-4">
+                <th className="p-4 text-left">
 
                   Role
 

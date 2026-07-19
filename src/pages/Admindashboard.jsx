@@ -20,6 +20,45 @@ const Admindashboard = () => {
 
 
   const [recent,setRecent]=useState([])
+  const [admins, setAdmins] = useState([]);
+   const fetchAdmins = async () => {
+
+    try {
+
+      const token = localStorage.getItem("accessToken");
+
+      const res = await api.get(
+
+        "/admin/admins",
+
+        {
+
+          headers: {
+
+            Authorization: `Bearer ${token}`
+
+          }
+
+        }
+
+      );
+
+      setAdmins(res.data);
+
+    }
+
+    catch (error) {
+
+      console.log(error);
+
+    }
+
+  };
+    useEffect(() => {
+  
+      fetchAdmins();
+  
+    }, []);
   
 useEffect(() => {
   const fetchRecentSearches = async () => {
@@ -85,7 +124,7 @@ const marksData = [
              <h1 className='font-bold  mr-11    '>Total Admins</h1>
 
           </div>
-          <p className='font-medium text-3xl px-30  '>6</p>
+          <p className='font-medium text-3xl px-30  '>{admins.length}</p>
          </div>
          <div className=' bg-white p-3 rounded-xl h-35 mt-15 shadow  '>
             <div className=' flex  items-center justify-between '>

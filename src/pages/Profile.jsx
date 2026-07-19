@@ -123,7 +123,8 @@ name:profile.name,
 
 phoneNumber:profile.phoneNumber,
 
-aboutMe:profile.aboutMe
+aboutMe:profile.aboutMe,
+email:profile.email
 
 },
 
